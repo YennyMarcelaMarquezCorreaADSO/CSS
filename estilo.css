@@ -1,36 +1,7 @@
-
-b {
-    color: brown;
+.contact-form__input:first-child{
+    color:blue;
 }
 
-b {
-    color:blue
-
-}
-
-h1{
-    color:aquamarine
-}
-
-.color-green{
-    color:green
-}
-
-h1 {
-    color: red
-}
-
-.color-green {
-    color:blueviolet
-}
-[ranciobich="color-blue"] {
-    color:goldenrod
-}
-
-#color-red{
-    color: blue;
-}
-
-.color-green {
-    color:gray !important
+.contact-form__input--active{
+    color:red
 }
