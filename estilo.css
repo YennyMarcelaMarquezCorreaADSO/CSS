@@ -1,65 +1,36 @@
-/* universal */
-* {
-    color: rgb(196, 137, 196);
-}
 
-/* de tipo */
-h1 {
-    color: purple
-}
-
-h2 {
-    color: rgb(206, 100, 206)
-}
-
-button {
-    color: rgb(58, 13, 58);
-}
-
-input {
-    color: rgb(157, 104, 179);
-}
-
-p {
-    color: rgb(201, 56, 30);
-}
-
-/* clases */
-.titulo-h2{
-    color: rgba(161, 72, 20, 0.418);
-}
-
-/* ID */
-#id-elemento {
-    color: black;
-}
-#id-element-for-modify{
+b {
     color: brown;
 }
 
-/* por atributo */
-[rancio="sip"] {
-    color: green;
+b {
+    color:blue
+
 }
 
-/* descendiente */
-h2 p{
-    color: blueviolet;
-}
-h2 b{
-    color: rgb(52, 85, 3)
-}
-.h2-class p{
-    color: palevioletred;
-}
-.h2-class b span{
-    color: mediumseagreen;
+h1{
+    color:aquamarine
 }
 
-/* pseudoclases */
-b:hover{
+.color-green{
+    color:green
+}
+
+h1 {
+    color: red
+}
+
+.color-green {
+    color:blueviolet
+}
+[ranciobich="color-blue"] {
+    color:goldenrod
+}
+
+#color-red{
     color: blue;
 }
-.h2-class p:hover{
-    color: red
+
+.color-green {
+    color:gray !important
 }
