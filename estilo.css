@@ -1,15 +1,22 @@
- .contact-form{
-    color:red
-} 
-
- .contact-form h2{
-    font-size: 100px;
+*{
     font-family: Georgia;
-    line-height: 1;
-    font-weight: 700;
-    font-stretch: normal;
-    font-variant: small-caps;
-} 
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h2 {
+    display: inline;
+    height: 400px;
+    width: 190px;
+}
+
+p {
+    height: 400px;
+    width: 190px;
+}
+
+
+
 
 
 
