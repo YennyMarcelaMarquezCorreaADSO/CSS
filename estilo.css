@@ -5,14 +5,33 @@
 }
 
 h2 {
-    display: inline;
-    height: 400px;
-    width: 190px;
+    background-color:aquamarine ;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-p {
-    height: 400px;
-    width: 190px;
+h3 {
+    background-color: rgb(158, 97, 97);
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+h1 {
+    background-color: rgb(175, 134, 212);
+    display: inline-block;
+    padding: 10px 20px 30px 40px;
+}
+
+h4 {
+    background-color: rgb(175, 134, 212);
+    display: inline-block;
+    height: 300px;
+    width: 300px; 
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
