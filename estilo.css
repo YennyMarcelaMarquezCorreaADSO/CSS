@@ -4,38 +4,28 @@
     font-size: 30px;
 }
 
-.caja1{
-    width: 200px;
-    height: 200px;
-    background: rgb(164, 101, 223);
-    margin: auto;
-    border: 10px solid black;
-    box-sizing: content-box;
-
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellowgreen;
 }
 
-.caja2{
-    width: 200px;
-    height: 200px;
-    background: rgb(44, 126, 44);
-    margin:auto;
-
+.caja1 {
+    background-color: plum ;
+    top: 20 px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
 }
-
-.caja3{
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    background: rgb(164, 101, 223);
-    outline: 5px solid blueviolet;
+.caja2 {
+    background-color: gray;
+    position: relative;
 }
-.caja4{
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    background: rgb(44, 126, 44);
+.caja3 {
+    background-color:goldenrod ;
+    position:absolute;
 }
-
-
-
-
+.caja4 {
+    background-color:burlywood ;
+}
