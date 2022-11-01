@@ -5,38 +5,28 @@
     font-size: 30px;
 }
 
-
-.caja {
-    margin: 45px;
-    width: 200px ;
-    height: 300px;
-    border: 4px solid black;
-    background: #f00;
+div{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background: #ddd;
 }
 
-.caja1 {
-    margin: 45px;
-    width: 200px ;
-    height: 300px;
-    border: 4px solid black;
-    background: rgb(0,0,0);
+h1 {
+    font-size: 24px;
 }
 
-.caja2 {
-    margin: 45px;
-    width: 200px ;
-    height: 300px;
-    border: 4px solid black;
-    background: rgba(194,1500, 192, 1);
-    opacity: 1;
+.caja1{
+    background: #bbb;
 }
 
-.caja3 {
-    margin: 45px;
-    width: 200px ;
-    height: 300px;
-    border: 4px solid black;
-    background: #fff;
+@media only screen and(max-width: 800px){
+   div{
+    display: block;
+    width: 100%;
+   }
 }
 
-
+h1{
+    font-size: 20px !important;
+}
