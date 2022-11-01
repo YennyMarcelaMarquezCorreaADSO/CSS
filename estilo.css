@@ -4,57 +4,27 @@
     font-size: 30px;
 }
 
-.texto{
+.caja1{
+    height: 100px;
+    width: 200px;
+    background: goldenrod ;
+    transition: backgroun 1s, height 1s, width 1s, border 0.5s;
+    border: 3px solid black;
+}
+.caja1:hover{
+    background: peru;
+    height: 300px;
+    width: 300px;
+    border: 3px solid royalblue;
+}
+
+.caja2{
+    margin: 30px;
     padding: 20px;
-    display: inline-block;
-}
-
-.texto::first-line{
-    color: blue;
-    font-size: 2em;
-}
-
-form{
-    margin: 100px auto;
-    display: block;
-    background-color: aqua;
-    padding: 20px;
-    width: 50%;
-}
-
-input{
-    padding: 6px;
-    width: 100%;
-}
-
-input::placeholder{
-    color: red;
-    font-size: 30px;
-    background-color: beige;
-
-}
-
-p{
-    padding: 6px;
-    width: 100%;
-}
-
-p::selection{
-    color: blueviolet;
-    background-color: rgb(202, 169, 233);
-}
-
-b{
-    padding: 6px;
-    width: 100%;
-}
-
-b::before{
-    content: "Me suscribi";
+    background-color: goldenrod ;
     color: brown;
+    display: block;
 }
-
-b::after{
-    content: "todo en tendencias";
+.caja1:link{
     color: red;
 }
