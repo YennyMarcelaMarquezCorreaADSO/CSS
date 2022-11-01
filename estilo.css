@@ -1,3 +1,4 @@
+
 *{
     font-family: Georgia;
     font-weight: 100;
@@ -5,38 +6,39 @@
 }
 
 
-.caja1 img{
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-    object-fit: cover;
-    object-position: left;
+.caja {
+    margin: 45px;
+    width: 200px ;
+    height: 300px;
+    border: 4px solid black;
+    background-color: pink;
 }
 
-.caja2{
-    margin: 25px;
-    width: 300px;
-    height: 500px;
+.caja:active{
+    cursor:row-resize ;
 }
 
-.caja2 img{
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-    object-fit: none;
-    object-position: top;
+.caja1 {
+    margin: 45px;
+    width: 200px ;
+    height: 300px;
+    border: 4px solid black;
+    background-color: pink;
 }
 
-.caja3{
-    margin: 25px;
-    width: 500px;
-    height: 500px;
+.caja1:active{
+    cursor:progress ;
 }
 
-.caja3 img{
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-    object-fit: scale-down;
-    object-position: bottom;
+.caja2 {
+    margin: 45px;
+    width: 200px ;
+    height: 300px;
+    border: 4px solid black;
+    background-color: pink;
 }
+
+.caja2:active{
+    cursor:copy ;
+}
+
