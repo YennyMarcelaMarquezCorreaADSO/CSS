@@ -4,22 +4,37 @@
     font-size: 30px;
 }
 
-h2 {
+.caja1{
+    width: 200px;
+    height: 200px;
+    background: rgb(164, 101, 223);
+    margin: auto;
+    border: 10px solid black;
+    box-sizing: content-box;
 
-    background-color:aquamarine ;
-    display: inline-block;
-    padding: 50px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 30px ;
-    border: 5px solid black;
-    box-shadow: 2px 4px 15px 0 #000;
-    text-shadow: 2px 2px 7px red;
-    transform: rotate(45deg);
 }
 
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: rgb(44, 126, 44);
+    margin:auto;
 
+}
+
+.caja3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background: rgb(164, 101, 223);
+    outline: 5px solid blueviolet;
+}
+.caja4{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background: rgb(44, 126, 44);
+}
 
 
 
